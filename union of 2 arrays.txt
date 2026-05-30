@@ -1,0 +1,6 @@
+arr1 = [1, 2, 3]
+arr2 = [3, 4, 5]
+
+result = set(arr1) | set(arr2)
+
+print(result)
