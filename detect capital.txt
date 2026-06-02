@@ -1,0 +1,9 @@
+def detect_capital(word):
+
+    return (
+        word.isupper() or
+        word.islower() or
+        word.istitle()
+    )
+
+print(detect_capital("Google"))
