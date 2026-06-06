@@ -1,0 +1,13 @@
+a = 12
+b = 18
+
+x, y = a, b
+
+while b != 0:
+    a, b = b, a % b
+
+gcd = a
+
+lcm = (x * y) // gcd
+
+print("LCM:", lcm)
